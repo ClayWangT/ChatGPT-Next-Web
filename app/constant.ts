@@ -152,20 +152,20 @@ const openaiModels = [
   "gpt-4-turbo-2024-04-09"
 ];
 
-const googleModels = [
-  "gemini-1.0-pro",
-  "gemini-1.5-pro-latest",
-  "gemini-1.5-flash-latest",
-  "gemini-pro-vision",
+const googleModels: string[] = [
+  // "gemini-1.0-pro",
+  // "gemini-1.5-pro-latest",
+  // "gemini-1.5-flash-latest",
+  // "gemini-pro-vision",
 ];
 
-const anthropicModels = [
-  "claude-instant-1.2",
-  "claude-2.0",
-  "claude-2.1",
-  "claude-3-sonnet-20240229",
-  "claude-3-opus-20240229",
-  "claude-3-haiku-20240307",
+const anthropicModels: string[] = [
+  // "claude-instant-1.2",
+  // "claude-2.0",
+  // "claude-2.1",
+  // "claude-3-sonnet-20240229",
+  // "claude-3-opus-20240229",
+  // "claude-3-haiku-20240307",
 ];
 
 export const DEFAULT_MODELS = [
